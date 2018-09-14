@@ -32,4 +32,4 @@ CREATE
 (virk1)-[:CONNECTED_TO {roles:['Datterselskab']}]->(virk2)
 ```
 
-![text](https://github.com/HakimiX/neo4jconfiguration/blob/master/Images/Graph.png)
+![text](https://github.com/HakimiX/neo4jconfiguration/blob/master/Images/virksomhedGraph.png)
