@@ -21,10 +21,10 @@ _This library helps with data integration, data conversion and graph algorithms_
 3. Configure the Neo4j Config file located in _/neo-community-3.4.7/conf_
 4. Add the following lines of code and save the file
 
-```javascript
+5. `
 dbms.security.procedures.unrestricted=apoc.*
 apoc.import.file.enabled=true
-```
+`
 
 
 
