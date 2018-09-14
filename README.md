@@ -13,6 +13,12 @@ _Neo4j requires java to run_
 8. Check connection with the following cyher command `:server connect`
 9. Enter username and password if prompted (neo4j/root)
 
+__Start and Stop Neo4j__
+```
+net start neo4j
+net stop neo4j
+```
+
 
 ## Download APOC Plugin
 _This library helps with data integration, data conversion and graph algorithms_
