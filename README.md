@@ -14,8 +14,6 @@ _Neo4j requires java to run_
 9. Enter username and password if prompted `neo4j` `root`
 
 __Start and Stop Neo4j__
-
-_Navigate to /neo4j-community-3.4.7/bin_
 ```
 net start neo4j
 net stop neo4j
