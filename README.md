@@ -32,4 +32,16 @@ apoc.import.file.enabled=true
 ```
 
 
+## Select Database
+_Selecting specifig graph database to be loaded in Neo4j_
+1. Copy the desired graph database folder _example.graphdb_
+2. Place the folder in _/neo4j-community-3.4.7/data/databases_
+3. Configure the Neo4j Config file located in _/neo-community-3.4.7/conf_
+4. Uncomment the following line of code `dbms.active_database=graph.db` _line 9_
+5. Change the name of the database to `dbms.active_databases=example.graphdb`
+6. Uncomment the following line of code `dbms.allow_upgrade=true` _line 29_
+
+
+
+
 
