@@ -10,8 +10,8 @@ _Neo4j requires java to run_
 5. Install the bash file with the following command `neo4j.bat install-service`
 6. Start Neo4j `net start neo4j`
 7. Navigate to [localhost:7474](http://localhost:7474)
-8. Check connection with the following cyher command `:server connect`
-9. Enter username and password if prompted (neo4j/root)
+8. Verify connection with the following cypher command `:server connect`
+9. Enter username and password if prompted `neo4j``root`
 
 __Start and Stop Neo4j__
 ```
