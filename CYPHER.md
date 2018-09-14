@@ -4,7 +4,7 @@ Neo4j uses a declarative, SQL-inspired language for describing patterns in graph
 It allows us to state what we want to select, insert, update og delete from our graph data. 
 The following cypher query creates nodes and relationships. 
 
-```sql
+```javascript
 CREATE (virk1:Virksomhed {cvr:'15459778', navn:'Sørensen og Jørgensen ApS', branchekode:'702040'})
 CREATE (virk2:Virksomhed {cvr:'25977458', navn:'Martin og Olsen ApS', branchekode:'702040'})
 
@@ -20,6 +20,7 @@ CREATE
 CREATE (p4:Person {navn:'Anders Mogensen', hovedtype:'REVISION'})
 CREATE (p5:Person {navn:'Arne bensen', hovedtype:'LEDELSESORGAN'})
 CREATE (p6:Person {navn:'Bølle Sørensen', hovedtype:'STIFTERE'})
+
 CREATE
 (p4)-[:CONNECTED_TO {roles:['REVISION']}]->(virk2),
 (p5)-[:CONNECTED_TO {roles:['LEDELSESORGAN']}]->(virk2),
