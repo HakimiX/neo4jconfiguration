@@ -1,7 +1,7 @@
 # Neo4j Cypher
 
 Neo4j uses a declarative, SQL-inspired language for describing patterns in graphs visually.
-It allows us to state what we want to select, insert, update og delete from our graph data. 
+It allows us to state what we want to select, insert, update and delete from our graph data. 
 The following cypher query creates nodes and relationships. 
 
 ```javascript
